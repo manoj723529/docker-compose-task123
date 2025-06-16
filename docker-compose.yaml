@@ -10,7 +10,7 @@ services:
 
   JWC:
     build:
-      context: ./JWC
+      context: ./jwc
     container_name: javawebcalculator
     ports:
       - "8081:8080"
